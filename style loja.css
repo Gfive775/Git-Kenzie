@@ -1,0 +1,390 @@
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+.menu-flex {
+  display: flex;
+  align-items: center;
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px; 
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.products-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+    
+.bloco main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco header{
+    text-align: center;
+    
+}
+.bloco header img{
+    width: 250px;
+}
+.bloco main a{
+    padding-top: 10px;
+    margin: 8px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: #ffffff;
+}
+
+.bloco main p{
+    margin: 5px;
+    padding: 12px;
+
+}
+
+.bloco-dois {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+    
+.bloco-dois main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco-dois header{
+    text-align: center;
+}
+.bloco-dois header img{
+    width: 250px;
+}
+
+.bloco-dois main a{
+    padding-top: 10px;
+    margin: 8px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: #ffffff;
+}
+
+.bloco-dois main p{
+    margin: 5px;
+    padding: 12px;
+
+}
+
+.bloco-tres {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+    
+.bloco-tres main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco-tres header{
+    text-align: center;
+}
+.bloco-tres header img{
+    width: 250px;
+}
+.bloco-tres main a{
+    padding-top: 10px;
+    margin: 8px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: #ffffff;
+}
+
+.bloco-tres main p{
+    margin: 5px;
+    padding: 12px;
+
+}
+
+.bloco-quatro {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+    
+.bloco-quatro main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco-quatro header{
+    text-align: center;
+}
+.bloco-quatro header img{
+    width: 250px;
+}
+
+.bloco-quatro main a{
+    padding-top: 10px;
+    margin: 8px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: #ffffff;
+}
+
+.bloco-quatro main p{
+    margin: 5px;
+    padding: 12px;
+
+}
+
+
+.bloco-cinco {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+    
+
+.bloco-cinco main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco-cinco header{
+    text-align: center;
+    padding-top: 31px;
+    margin-bottom: 11px ;
+}
+.bloco-cinco header img{
+    width: 170px;
+}
+.bloco-cinco main a{
+    padding-top: 10px;
+    margin: 8px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: #ffffff;
+}
+
+.bloco-cinco main p{
+    margin: 2px;
+    padding: 12px;
+
+}
+
+.bloco-seis {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+    
+.bloco-seis main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco-seis header{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.bloco-seis main a{
+    padding-top: 10px;
+    margin: 8px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: #ffffff;
+}
+
+.bloco-seis main p{
+    margin: 3px;
+    padding: 12px;
+
+}
+
+.bloco-sete {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+    
+.bloco-sete main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco-sete header{
+    text-align: center;
+    padding-top: 8px;
+}
+.bloco-sete header img{
+    width: 228px;
+}
+
+.bloco-sete main a{
+    padding-top: 10px;
+    margin: 8px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: #ffffff;
+}
+
+.bloco-sete main p{
+    margin: 3px;
+    padding: 12px;
+
+}
+
+.bloco-oito {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+    
+.bloco-oito main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco-oito header{
+    text-align: center;
+    padding-top: 8px;
+}
+.bloco-oito header img{
+    width: 200px;
+}
+
+.bloco-oito main a{
+    padding-top: 10px;
+    margin: 8px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+    color: #ffffff;
+}
+
+.bloco-oito main p{
+    margin: 3px;
+    padding: 12px;
+
+}
